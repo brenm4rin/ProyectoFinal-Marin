@@ -1,0 +1,88 @@
+.imgProductos {
+    margin-top: 50px;
+}
+
+.colorBoton {
+    color: white;
+    background-color: #CD86DB;
+}
+
+.colorBoton:hover {
+    background-color: #D23DDC;
+}
+
+.card {
+    background-color: #E1BDE3;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+#formulario{
+    margin-bottom: 100px;
+    padding-top: 100px;
+    border: solid;
+    border-color: #CD86DB;
+    margin-top: 100px;
+}
+
+.dia{
+    display: flex;
+    justify-content: center;
+}
+
+#dia{
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+#dia:hover{
+    background-color: #CD86DB;
+}
+
+
+.mes{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#mes{
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#mes:hover{
+    background-color: #CD86DB;
+}
+
+#resultadoB {
+    margin-top: 50px;
+    margin-left: 500px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+
+#resultadoB:hover{
+    background-color: #CD86DB;
+}
+
+#texto{
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
