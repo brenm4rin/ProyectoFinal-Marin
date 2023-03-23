@@ -285,3 +285,22 @@ function calcularSignoZodiacal(dia, mes) {
 }
 
 calcularSignoZodiacal(dia, mes);
+
+
+const listadoProductos = "json.productos.json";
+
+const listado = document.getElementById("listado");
+
+fetch(listadoProductos)
+    .then(respuesta => respuesta.json())
+    .then(datos => {
+        datos.forEach(producto => {
+            listado.innerHTML += `
+            <h5>Nombre: ${producto.nombre}</h5>
+            <p>Precio: ${producto.precio}</p>
+            <p>ID: ${producto.id}</p>
+            `
+        })
+    })
+
+    .catch(error => console.log(error));
