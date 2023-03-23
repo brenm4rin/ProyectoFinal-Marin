@@ -287,7 +287,7 @@ function calcularSignoZodiacal(dia, mes) {
 calcularSignoZodiacal(dia, mes);
 
 
-const listadoProductos = "json.productos.json";
+const listadoProductos = "./js/json/productos.json";
 
 const listado = document.getElementById("listado");
 
@@ -304,3 +304,5 @@ fetch(listadoProductos)
     })
 
     .catch(error => console.log(error));
+
+    
